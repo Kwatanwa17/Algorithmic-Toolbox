@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 230
-    length: 9
+    length: 242
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 230
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -39,13 +39,13 @@ files:
   visible: true
   placeholders:
   - offset: 334
-    length: 9
+    length: 8
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 334
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -103,4 +103,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-1-introduction/discussions
 status: Unchecked
+feedback:
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-1-introduction/submission">submit
+    to Coursera</a></html>
+  time: Mon, 29 Jun 2020 15:34:57 UTC
 record: -1

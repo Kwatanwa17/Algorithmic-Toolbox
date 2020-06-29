@@ -3,14 +3,14 @@ files:
 - name: gcd.py
   visible: true
   placeholders:
-  - offset: 313
-    length: 9
+  - offset: 309
+    length: 70
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 313
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -40,7 +40,7 @@ files:
   visible: true
   placeholders:
   - offset: 148
-    length: 9
+    length: 6
     placeholder_text: type here
     initial_state:
       length: 9
@@ -48,8 +48,8 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-  - offset: 298
-    length: 9
+  - offset: 295
+    length: 10
     placeholder_text: type here
     initial_state:
       length: 9
@@ -101,4 +101,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-1-introduction/discussions
 status: Unchecked
+feedback:
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-1-introduction/submission">submit
+    to Coursera</a></html>
+  time: Mon, 29 Jun 2020 15:37:39 UTC
 record: -1

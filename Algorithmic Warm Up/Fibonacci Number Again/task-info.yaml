@@ -3,15 +3,15 @@ files:
 - name: fibonacci_number_again.py
   visible: true
   placeholders:
-  - offset: 369
-    length: 9
+  - offset: 468
+    length: 28
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 369
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -49,8 +49,8 @@ files:
       length: 9
       offset: 456
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from itertools import product
@@ -120,5 +120,9 @@ files:
             passed()
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-1-introduction/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Some unit tests failed. Please fix your code, ensure that all unit tests
+    pass, and try again.
+  time: Mon, 29 Jun 2020 15:44:03 UTC
 record: -1
