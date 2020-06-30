@@ -10,7 +10,7 @@ files:
       length: 9
       offset: 241
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   - offset: 520
     length: 9
@@ -112,7 +112,7 @@ files:
       length: 9
       offset: 288
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
