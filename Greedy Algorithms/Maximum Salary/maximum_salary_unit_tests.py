@@ -8,10 +8,11 @@ class TestLargestNumber(unittest.TestCase):
         for numbers in [
             [1],
             [1, 2],
-            type here
+            [3, 4],
             [1, 12],
             [2, 12],
             [2, 21],
+            [3, 84, 565],
             [2, 21, 23, 211, 213, 231, 232]
         ]:
             self.assertEqual(largest_number(numbers),
