@@ -3,15 +3,15 @@ files:
 - name: quicksort_unit_tests.py
   visible: true
   placeholders:
-  - offset: 240
-    length: 9
+  - offset: 244
+    length: 17
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 240
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from quicksort import randomized_quick_sort
@@ -74,25 +74,25 @@ files:
 - name: quicksort.py
   visible: true
   placeholders:
-  - offset: 80
-    length: 9
+  - offset: 793
+    length: 13
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 80
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-  - offset: 259
-    length: 80
+    status: Failed
+  - offset: 1047
+    length: 128
     placeholder_text: "make a call to partition3 and then two recursive calls \nto\
       \ randomized_quick_sort"
     initial_state:
       length: 80
       offset: 259
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: "# python3\n\nfrom random import randint\n\n\ndef partition3(array, left,\
     \ right):\n    type here\n\n\ndef randomized_quick_sort(array, left, right):\n\
     \    if left >= right:\n        return\n    k = randint(left, right)\n    array[left],\
@@ -103,5 +103,9 @@ files:
     \ - 1)\n    print(*elements)\n"
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-3-divide-and-conquer/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Some unit tests failed. Please fix your code, ensure that all unit tests
+    pass, and try again.
+  time: Thu, 02 Jul 2020 21:05:30 UTC
 record: -1
