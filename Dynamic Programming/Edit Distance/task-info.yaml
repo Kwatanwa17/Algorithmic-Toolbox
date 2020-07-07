@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 9
+    length: 984
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 64
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -27,13 +27,13 @@ files:
   visible: true
   placeholders:
   - offset: 364
-    length: 9
+    length: 15
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 364
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -105,4 +105,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
 status: Unchecked
+feedback:
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/submission">submit
+    to Coursera</a></html>
+  time: Tue, 07 Jul 2020 05:46:20 UTC
 record: -1

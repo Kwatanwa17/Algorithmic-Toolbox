@@ -14,7 +14,7 @@ files:
       offset: 186
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Unchecked
   text: |
     import unittest
     from primitive_calculator import compute_operations
@@ -69,7 +69,7 @@ files:
       offset: 72
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Unchecked
   text: |
     # python3
 
@@ -86,9 +86,9 @@ files:
         print(*output_sequence)
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
-status: Failed
+status: Unchecked
 feedback:
-  message: Some unit tests failed. Please fix your code, ensure that all unit tests
-    pass, and try again.
-  time: Mon, 06 Jul 2020 13:35:52 UTC
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/submission">submit
+    to Coursera</a></html>
+  time: Mon, 06 Jul 2020 23:31:53 UTC
 record: -1
