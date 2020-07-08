@@ -5,11 +5,13 @@ from partition_souvenirs import partition3
 class PartitionSouvenirs(unittest.TestCase):
     def test(self):
         for values, answer in (
+            ((1, 12, 17, 29, 18, 13), 1),
+            ((1, 1, 1, 3, 3, 3),1),
             ((20, ), 0),
             ((7, 7, 7), 1),
             ((3, 3, 3), 1),
             ((3, 3, 3, 3), 0),
-            type here
+            ((3, 6, 4, 1, 9, 6, 9, 1), 1),
         ):
             self.assertEqual(partition3(values), answer)
 

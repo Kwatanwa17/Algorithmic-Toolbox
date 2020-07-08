@@ -34,14 +34,14 @@ files:
 - name: maximum_gold.py
   visible: true
   placeholders:
-  - offset: 204
-    length: 9
+  - offset: 35
+    length: 685
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 204
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -66,14 +66,14 @@ files:
 - name: maximum_gold_unit_tests.py
   visible: true
   placeholders:
-  - offset: 278
-    length: 9
+  - offset: 290
+    length: 14
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 278
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -96,4 +96,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
 status: Unchecked
+feedback:
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/submission">submit
+    to Coursera</a></html>
+  time: Wed, 08 Jul 2020 03:23:54 UTC
 record: -1
